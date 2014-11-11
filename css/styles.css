@@ -1,3 +1,4 @@
+
 /* Your Website Styles */
 body {
 	background: #eee;
@@ -7,8 +8,33 @@ body {
 div {
 	margin-top: -60px;	x 
 }
-
-
+#Quicksand{
+	font-family: 'Quicksand', sans-serif;
+}
+#Ubuntu{
+	font-family: 'Ubuntu', sans-serif;
+}
+#Amaranth{
+	font-family: 'Amaranth', sans-serif;
+}
+#Artifika {
+	font-family: 'Artifika', serif;
+}
+#Unlock {
+	font-family: 'Unlock', cursive;
+}
+#Bevan {
+	font-family: 'Bevan', cursive;
+}
+#NovaSquare {
+	font-family: 'Nova Square', cursive;
+}
+#PatuaOne {
+	font-family: 'Patua One', cursive;
+}
+#YesevaOne {
+	font-family: 'Yeseva One', cursive;
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
