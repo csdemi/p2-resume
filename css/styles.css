@@ -50,6 +50,12 @@ div {
 #main{
 	background: #eee;
 }
+#ewu, #sms, #personal, #alb {
+	padding-left: 10px;
+}
+#pattern, #knowledge,#wwcc{
+	padding-right: 10px;
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
