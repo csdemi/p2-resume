@@ -33,7 +33,9 @@ p{
 div {
 	margin-top: -60px;	x 
 }
-
+#alb > p:nth-child(2),#eagles > p:nth-child(2),#warriors > p:nth-child(2){
+	font-weight: 700;
+}
 #mail{
 	text-align: left;
 	width: 211px;
