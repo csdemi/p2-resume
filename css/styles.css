@@ -3,11 +3,25 @@
 body {
 	background: #eee;
 }
-h1,h2{
+h1{
+	font-family: 'Nova Square', cursive;
+	text-align: center;
+	letter-spacing: .15em;	
+}
+ h1+p:first-of-type{
+ 	text-align: right;
+ }
+h2{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
 	border-bottom: solid;
 }
 h3{
+	font-family: 'Quicksand', sans-serif;
 	text-decoration: underline;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
 }
 div {
 	margin-top: -60px;	x 
@@ -17,18 +31,6 @@ div {
 }
 #Ubuntu{
 	font-family: 'Ubuntu', sans-serif;
-}
-#Amaranth{
-	font-family: 'Amaranth', sans-serif;
-}
-#Artifika {
-	font-family: 'Artifika', serif;
-}
-#Unlock {
-	font-family: 'Unlock', cursive;
-}
-#Bevan {
-	font-family: 'Bevan', cursive;
 }
 #NovaSquare {
 	font-family: 'Nova Square', cursive;
