@@ -3,8 +3,12 @@
 body {
 	background: #eee;
 }
-
-
+h1,h2{
+	border-bottom: solid;
+}
+h3{
+	text-decoration: underline;
+}
 div {
 	margin-top: -60px;	x 
 }
