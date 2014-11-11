@@ -1,16 +1,21 @@
 
 /* Your Website Styles */
-body {
-	background: #eee;
+header{
+	background: url("../img/circuit2.png");	
+	height: 250px;
+	color: white;
+}
+body{
+	background: #eee;	
 }
 h1{
 	font-family: 'Nova Square', cursive;
 	text-align: center;
-	letter-spacing: .15em;	
+	font-size: 4em;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-top: 35px;
 }
- h1+p:first-of-type{
- 	text-align: right;
- }
 h2{
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
@@ -21,28 +26,39 @@ h3{
 	text-align: center;
 	text-decoration: underline;
 }
+
 p{
 	font-family: 'Ubuntu', sans-serif;
 }
 div {
 	margin-top: -60px;	x 
 }
-#Quicksand{
-	font-family: 'Quicksand', sans-serif;
+
+#mail{
+	text-align: left;
+	width: 211px;
+	padding-left: 34px;
 }
-#Ubuntu{
-	font-family: 'Ubuntu', sans-serif;
+#phone{
+	text-align: right;
+	width: 413px;
+	padding-right: 20px;
 }
-#NovaSquare {
-	font-family: 'Nova Square', cursive;
+#phone,#mail{
+	font-size: 1.19em;
 }
-#PatuaOne {
-	font-family: 'Patua One', cursive;
-}
-#YesevaOne {
-	font-family: 'Yeseva One', cursive;
+#main{
+	background: #eee;
+	width: 88%;
+	max-width: 62.5em;
 }
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
+}
+@media(max-width: 62.5em){
+	body{font-size: 1em;}
+	h1{
+		font-size: 2em;
+	}
 }
