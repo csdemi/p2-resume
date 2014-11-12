@@ -6,7 +6,8 @@ header{
 	color: white;
 }
 body{
-	background: #eee;	
+	background: #eee;
+	font-family: 'Ubuntu',sans-serif;	
 }
 h1{
 	font-family: 'Nova Square', cursive;
@@ -23,18 +24,23 @@ h2{
 }
 h3{
 	font-family: 'Quicksand', sans-serif;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
 }
-
-p{
-	font-family: 'Ubuntu', sans-serif;
+ul{
+	text-align: left;
 }
 div {
 	margin-top: -60px;	x 
 }
 #alb > p:nth-child(2),#eagles > p:nth-child(2),#warriors > p:nth-child(2){
 	font-weight: 700;
+}
+#personal > ul,#knowlege >ul,#proficient > ul{
+	text-align: left;
+}
+#personal > ul >li,#proficient > ul>li,#knowlege >ul>li{
+	list-style: none;
 }
 #mail{
 	text-align: left;
