@@ -6,8 +6,10 @@ header{
 	color: white;
 }
 body{
-	background: #eee;
-	font-family: 'Ubuntu',sans-serif;	
+	background: url("../img/paper.png");
+	background: #D3D5CF;
+	font-family: 'Ubuntu',sans-serif;
+	color: #164F57;	
 }
 h1{
 	font-family: 'Nova Square', cursive;
@@ -55,9 +57,7 @@ div {
 #phone,#mail{
 	font-size: 1.19em;
 }
-#main{
-	background: #eee;
-}
+
 #ewu, #sms, #personal, #alb {
 	padding-left: 10px;
 }
